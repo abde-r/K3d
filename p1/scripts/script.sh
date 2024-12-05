@@ -1,1 +1,0 @@
-echo 'wax wax p1' && cat -e ./Vagrantfile
