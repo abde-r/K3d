@@ -33,11 +33,11 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: app-two
+  name: app-ingress
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: nginx
+  # ingressClassName: nginx
   rules:
   - host: app2.com
     http:
