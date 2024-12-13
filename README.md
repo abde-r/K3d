@@ -22,7 +22,7 @@
   ---
 </br>
 <div align="start">
- <h4>◦ K3d and Argo CD:</h4>
+ <h4>◦ K3d and ArgoCD:</h4>
 <p>Use of k3d and ArgoCD to set up a continuous integration pipeline for a containerized application. The application is based on a container image and is linked to a GitHub repository. The setup includes two distinct namespaces: one for development (dev) and the other for ArgoCD, which handles the continuous delivery aspect. The entire infrastructure and deployment process are provisioned and automated through a script, streamlining the deployment and management of the application across environments. This setup ensures efficient CI/CD workflows and automated updates based on changes in the GitHub repository.</p>
 </div>
 
