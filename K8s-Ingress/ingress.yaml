@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: ingress-apps
   annotations:
-    kubernetes.io/ingress.class: "nginx"  # Explicitly use the NGINX Ingress controller
+    kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
   - host: app1.com
@@ -36,7 +36,6 @@ spec:
             name: service-app-3
             port:
               number: 80
-  # Optional: remove the catch-all rule for testing, or make sure it’s lower priority
   - http:
      paths:
      - path: /
