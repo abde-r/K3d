@@ -15,8 +15,8 @@
   ---
 </br>
 <div align="start">
- <h4>◦ K3s and Ingress:</h4>
-<p>Using k3s to host web applications, with an Ingress controller provisioned by an automated script. The setup allows for seamless routing of web traffic to the applications, enabling access via both hostname and IP address. The automated script simplifies the deployment and configuration of the entire environment, ensuring an efficient and scalable solution for hosting web apps in a Kubernetes-based infrastructure.</p>
+ <h4>◦ K8s and Ingress:</h4>
+<p>Using k8s to host web applications, with an Ingress controller. The setup allows for seamless routing of web traffic to the applications, enabling access via both hostname and IP address. This will simplify the deployment and configuration of the entire environment, ensuring an efficient and scalable solution for hosting web apps in a Kubernetes infrastructure.</p>
 </div>
 
   ---
