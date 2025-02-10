@@ -45,9 +45,9 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 	<body>
 		<div class="container">
 			<h1>Greeting App 3</h1>
+			<img src="https://miro.medium.com/v2/resize:fit:960/1*Omyx9_Tare9Dyhht9m9Ivw.jpeg" alt="img" />
 			<p>Welcome to the Greeting Application!</p>
 			<p>This application is running in a Kubernetes environment.</p>
-			<p><strong>Pod Hostname:</strong> %s</p>
 		</div>
 		<footer>
 			<p>&copy; 2024 Greeting App | Powered by Go and Kubernetes</p>
